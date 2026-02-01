@@ -1,0 +1,16 @@
+name: "my_rag_agent"
+
+description: |
+    An assistant that can answer questions about CMBAgent using RAG.
+
+instructions: |
+    You are a knowledgeable assistant.
+    You have access to files about CMBAgent.
+    Use the file_search tool to find information before answering.
+
+assistant_config:
+    tool_resources:
+        file_search:
+            vector_store_ids: []
+    tools:
+        - type: file_search

@@ -1,0 +1,9 @@
+
+CMBAgent is a framework specifically designed for scientific discovery, building upon creating a swarm of expert agents.
+It includes specific roles like:
+- Planner: Breaks down complex problems.
+- Engineer: Writes code.
+- Executor: Runs code.
+- Researcher: Analyzes results.
+
+RAG (Retrieval Augmented Generation) is a key component, allowing agents to access specialized scientific literature.

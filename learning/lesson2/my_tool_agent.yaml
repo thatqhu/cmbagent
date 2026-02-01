@@ -1,0 +1,13 @@
+name: "my_tool_agent"
+
+description: |
+    An assistant that can use tools to perform calculations.
+
+instructions: |
+    You are a helpful assistant.
+    You have access to tools to perform calculations.
+    Use the provided tools whenever appropriate.
+
+assistant_config:
+    temperature: 0
+    top_p: 1.0
